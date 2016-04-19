@@ -1,0 +1,142 @@
+body {
+	background: #f9e933;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 100%;
+
+	
+}
+
+
+
+header, main, footer {
+	min-width: 855px;
+	
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+header {
+	background: white;
+	overflow: auto;
+	padding: 40px;
+
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+	font-size: 3.0em;
+	color: #C32148;
+	font-style: italic;
+
+}
+
+header nav {
+	float: right;
+	width: 285px;
+}
+
+main {
+	background: white;
+	overflow: auto;
+	padding-bottom: 200px;
+	
+}
+
+.sitemap {
+	float: right;
+	width: 180px;
+	/*margin: auto;*/
+}
+
+.contact {
+	float: left;
+	width: 570px;
+}
+main img {
+	float: right;
+	width: 285px;
+}
+
+.subcontainer {
+	float: left;
+	width: 570px;
+}
+
+main h2 {
+	font-size: xx-Large;
+}
+
+main h3 {
+	font-size: x-Large;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+main .content {
+	padding-top: 40px;
+	padding-left: 50px;
+}
+
+input:hover {
+	border-color: red;
+}
+
+
+h5 {
+	font-size: x-Large;
+	padding: 20px;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.red {
+	color: #C32148;
+}
+
+
+.left {
+	float: left;
+	padding: 50;
+	
+}
+
+.right {
+	float: right;
+	
+	
+
+}
+
+a {
+	text-decoration: none;
+	color: #C32148;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.tabs a span {
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	width: 100px;
+	margin-right: 10px;
+	text-align: center;
+	background: #ddd;
+	padding: 5px;
+}
+
+.tabs a span.active {
+	background: #eee;
+}
